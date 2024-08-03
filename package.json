@@ -11,6 +11,8 @@
         "test": "turbo test",
         "test:watch": "turbo test:watch",
         "test:ui": "turbo test:ui",
+        "test:e2e": "turbo test:e2e",
+        "test:e2e:ui": "turbo test:e2e:ui",
         "format": "biome format . --write && prettier . --write",
         "prepare": "husky",
         "generate": "plop"
